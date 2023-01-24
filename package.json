@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@emotion/styled": "^11.10.5",
+    "@hot-loader/react-dom": "^17.0.2",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/data-grid": "^4.0.0-alpha.37",
+    "@material-ui/icons": "4.11.3",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.6",
+    "bootstrap": "5.2.3",
+    "node-sass": "^7.0.3",
+    "prettier": "^2.8.3",
+    "react": "18.2.0",
+    "react-basic-design": "^0.0.109",
+    "react-bootstrap": "2.7.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0",
+    "react-scripts": "5.0.1",
+    "sass": "1.57.1"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.20.13"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "prettier --write ."
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
